@@ -17,4 +17,4 @@ To pre-process fmri data, I apply atlas containing gordon and harvard-oxford
 - time.sh : Apply timeseries.py code to a fmriprep of one subject (similar to atlas_one.sh)
 
 # Final using Job Scheduler
-- make_each_job.sh : Dividing jobs.txt into each in terms of subjects
+- make_each_job.sh : Dividing commands of jobs.txt into each subjects and saving as sh files
