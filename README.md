@@ -14,8 +14,9 @@ To pre-process fmri data, I apply atlas containing gordon and harvard-oxford
 - time_create_jobs.py : create jobs.txt
 - jobs.txt : create commands for all subjects' fmri data
 (ex) /scratch/bigdata/ABCD/abcd-fmriprep-rs/time.sh /scratch/bigdata/ABCD/abcd-fmriprep-rs/abcd-fmriprep-rs-untar/fmriprep-deri-NDARINV0CTJAAHC/fmriprep/sub-NDARINV0CTJAAHC/ses-baselineYear1Arm1/func/sub-NDARINV0CTJAAHC_ses-baselineYear1Arm1_task-rest_run-1_space-MNIPediatricAsym_cohort-4_res-2_desc-preproc_bold.nii.gz /scratch/bigdata/ABCD/abcd-fmriprep-rs/abcd-fmriprep-rs-time/fmriprep-deri-NDARINV0CTJAAHC
-- time.sh : Apply timeseries.py code to a fmriprep of one subject (similar to atlas_one.sh)
 
 # Final using Job Scheduler
 - make_each_job.sh : Dividing commands of jobs.txt into each subjects and saving as sh files
+
+# Common Use
 - time.sh : Apply timeseries.py code to a fmriprep of one subject (similar to atlas_one.sh)
