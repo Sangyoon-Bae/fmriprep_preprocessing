@@ -26,3 +26,4 @@ qstat -f: check the queues
 qconf -sc: check the options of job
 qstat: check the running job
 -l h_vmem: set the maximum memory amount
+qdel: stop the running queue
