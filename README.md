@@ -25,5 +25,10 @@ To pre-process fmri data, I apply atlas containing gordon and harvard-oxford
 qstat -f: check the queues
 qconf -sc: check the options of job
 qstat: check the running job
--l h_vmem: set the maximum memory amount
 qdel: stop the running queue
+
+# Qsub options
+-q all.q: using all of the queues
+-l h_vmem: set the maximum memory amount
+-cwd: job file which I want to run
+-N: set the job name
