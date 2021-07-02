@@ -21,6 +21,11 @@ To pre-process fmri data, I apply atlas containing gordon and harvard-oxford
 # Common Use
 - time.sh : Apply timeseries.py code to a fmriprep of one subject (similar to atlas_one.sh)
 
+# Details
+each subject has several fmriprep images in terms of run
+some subjects have 1~4 runs, others have 3 runs and the others have 5~6 runs
+-> all names of the job text files include run number
+
 # Basic command
 - qstat -f: check the queues
 - qconf -sc: check the options of job
