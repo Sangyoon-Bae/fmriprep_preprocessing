@@ -3,7 +3,7 @@ To pre-process fmri data, I apply atlas containing gordon and harvard-oxford
 
 # Structure
 https://app.cloudcraft.co/view/ae47fa94-1b9d-4f06-9424-109d5eb28864?key=aPv9-PX8Oa0JLRkBnr1eDA
-![fmriprep_ABCD](https://user-images.githubusercontent.com/43199011/124467218-863dcd80-ddd2-11eb-9fe4-2ed0d450caf7.png)
+![fmriprep_ABCD](https://user-images.githubusercontent.com/43199011/124473921-dc167380-ddda-11eb-8a9e-0dd9b12c54fd.png)
 
 ## Main directory
 /scratch/bigdata/ABCD/abcd-fmriprep-rs
