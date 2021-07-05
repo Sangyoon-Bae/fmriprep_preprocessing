@@ -4,6 +4,9 @@ To pre-process fmri data, I apply atlas containing gordon and harvard-oxford
 # Main directory
 /scratch/bigdata/ABCD/abcd-fmriprep-rs
 
+# Structure
+https://app.cloudcraft.co/view/ae47fa94-1b9d-4f06-9424-109d5eb28864?key=aPv9-PX8Oa0JLRkBnr1eDA
+
 # Preparing Data
 - untar.sh : Untar each frmiprep tar data >> /scratch/bigdata/ABCD/abcd-fmriprep-rs
 - duplicate_untar.sh : Duplicate untared frmi data just in case >> /scratch/bigdata/ABCD/abcd-fmriprep-rs
