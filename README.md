@@ -15,7 +15,8 @@ https://app.cloudcraft.co/view/ae47fa94-1b9d-4f06-9424-109d5eb28864?key=aPv9-PX8
 # Before using Job Scheduler
 - timeseries.py : Apply atlas to extract timeseries data >> /scratch/bigdata/ABCD/abcd-fmriprep-rs
 - atlas_one.sh :  Apply timeseries.py code to a fmriprep of one subject >> /scratch/bigdata/ABCD/abcd-fmriprep-rs/before_job_scheduler
-- atlas.sh : Apply timeseries.py code to all of the fmri data >> /scratch/bigdata/ABCD/abcd-fmriprep-rs/before_job_scheduler
+- atlas.sh : Apply timeseries.py code to all of the fmri data >> /scratch/bigdata/ABCD/abcd-fmriprep-rs/before_job_scheduler\n
+-> Finally, not using atlas_one.sh & atlas.sh
 
 # After using Job Scheduler
 - time_create_jobs.py : create jobs.txt >> /scratch/bigdata/ABCD/abcd-fmriprep-rs/after_job_scheduler
