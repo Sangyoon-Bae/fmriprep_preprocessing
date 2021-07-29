@@ -37,8 +37,9 @@ some subjects have 1-4 runs, others have 3 runs and the others have 5-6 runs.
 # How the codes work
 1. take_create_jobs.py : make jobs.txt
 2. qsub -q all.q -l h_vmem=12G -cwd job* : implement job-{subject_ID}.txt script  
-3. time.sh : apply time.sh in job-{subject_ID}.txt <img width="911" alt="스크린샷 2021-07-05 오후 9 22 42" src="https://user-images.githubusercontent.com/43199011/124471033-5ba24380-ddd7-11eb-9415-ced6c0877b58.png">
-4. timeseries.py : apply atlas in time.sh.  
+  -> if it doesn't work, use 'for j in job*; qsub -q all.q -l h_vmem=12G -cwd $j; done' command
+4. time.sh : apply time.sh in job-{subject_ID}.txt <img width="911" alt="스크린샷 2021-07-05 오후 9 22 42" src="https://user-images.githubusercontent.com/43199011/124471033-5ba24380-ddd7-11eb-9415-ced6c0877b58.png">
+5. timeseries.py : apply atlas in time.sh.  
 > <img width="594" alt="스크린샷 2021-07-05 오후 9 29 33" src="https://user-images.githubusercontent.com/43199011/124471681-221e0800-ddd8-11eb-9d77-ac0f620dfd59.png">
 
 # Qsub
